@@ -1,0 +1,50 @@
+{
+  "name": "torann/embedder",
+  "description": "Fetch embeddable links from text and fetch OpenGraph data.",
+  "keywords": [
+    "embedder",
+    "oembed",
+    "embed",
+    "videos",
+    "audio",
+    "youtube",
+    "dailymotion",
+    "vine",
+    "vimeo",
+    "OpenGraph"
+  ],
+  "license": "BSD 2-Clause",
+  "authors": [
+    {
+      "name": "Daniel Stainback",
+      "email": "torann@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8",
+    "mockery/mockery": "^0.9.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Torann\\Embedder\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Torann\\Embedder\\Test\\": "tests/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.2-dev"
+    }
+  },
+  "archive" : {
+    "exclude": [
+      "/tests"
+    ]
+  }
+}
