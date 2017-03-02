@@ -73,8 +73,10 @@ Will output array:
   "title" => "Hush"
   "type" => "video.movie"
   "image" => "https://resizing.flixster.com/R6FvucOnw5bYh_sffSMbvFSXX2w=/220x326/v1.bTsxMTcwNDk2MDtqOzE2OTc1OzIwNDg7MjIwOzMyNg"
-  "image:width" => "800"
-  "image:height" => "1200"
+  "image" => [
+    "width" => "800"
+    "height" => "1200"
+  ],
   "url" => "http://www.rottentomatoes.com/m/771439257/"
 ]
 ```
