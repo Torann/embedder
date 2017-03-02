@@ -1,6 +1,6 @@
 # Link Embedder
 
-[![Build Status](https://travis-ci.org/torann/embedder.svg)](https://travis-ci.org/torann/embedder)
+[![Build Status](https://travis-ci.org/Torann/embedder.svg?branch=master)](https://travis-ci.org/Torann/embedder)
 [![Latest Stable Version](https://poser.pugx.org/torann/embedder/v/stable.png)](https://packagist.org/packages/torann/embedder)
 [![Total Downloads](https://poser.pugx.org/torann/embedder/downloads.png)](https://packagist.org/packages/torann/embedder)
 [![Patreon donate button](https://img.shields.io/badge/patreon-donate-yellow.svg)](https://www.patreon.com/torann)
