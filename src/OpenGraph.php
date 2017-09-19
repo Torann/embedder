@@ -116,6 +116,10 @@ class OpenGraph
         while (count($keys) > 1) {
             $key = array_shift($keys);
 
+            if (isset($array[$key]) && !is_array($array[$key])) {
+                $key = $key . '_attributes';
+            }
+
             // If the key doesn't exist at this depth, we will just create an empty array
             // to hold the next value, allowing us to create the arrays to hold final
             // values at the correct depth. Then we'll keep digging into the array.
