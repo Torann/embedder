@@ -46,7 +46,9 @@ class Embed
         if (preg_match_all($this->urlRegex, $body, $matches)) {
             $service = $this->providers->first($matches['0']);
 
-            return $service->getUrl();
+            return $service instanceOf Providers\ProviderAbstract
+                ? $service->getUrl()
+                : null;
         }
 
         return '';
