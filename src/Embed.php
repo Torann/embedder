@@ -48,7 +48,7 @@ class Embed
 
             return $service instanceOf Providers\ProviderAbstract
                 ? $service->getUrl()
-                : null;
+                : '';
         }
 
         return '';
